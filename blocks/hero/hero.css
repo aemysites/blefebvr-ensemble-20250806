@@ -1,4 +1,3 @@
-/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -341,8 +340,6 @@
   flex-direction: column;
   justify-content: center;
 }
-
-/* Graphic/Image (right side) */
 .hero.hero10 > div:first-child {
   position: relative;
   order: 2;
@@ -350,29 +347,10 @@
   align-items: flex-end;
   height: 100%;
   min-height: 400px;
-
-  /* Simulate abstract red shape as background */
   background: 
     radial-gradient(ellipse 75% 65% at 75% 40%, #e6002d 85%, transparent 100%);
   z-index: 1;
 }
-
-/* If you want to place images in this div, you might use absolute positioning.
-   Example for illustrative purposes only (will require actual img in DOM):
-.hero.hero10 > div:first-child img {
-  position: absolute;
-  bottom: 0;
-  right: 10%;
-  max-height: 380px;
-  height: 80%;
-  object-fit: contain;
-  z-index: 2;
-  background: transparent;
-  display: block;
-}
-*/
-
-/* Content/Text (left side) */
 .hero.hero10 > div:last-child {
   order: 1;
   justify-content: center;
@@ -380,18 +358,14 @@
   padding: 48px 40px 48px 7vw;
   z-index: 2;
 }
-
-/* Headline */
 .hero.hero10 h2 {
-  font-family: Inter, Arial, sans-serif; /* Or matching bold sans-serif font */
-  font-size: 3rem; /* Large headline */
+  font-family: Inter, Arial, sans-serif;
+  font-size: 3rem;
   font-weight: 900;
   color: #000;
   margin: 0 0 1rem;
   line-height: 1.1;
 }
-
-/* Paragraph */
 .hero.hero10 p {
   font-size: 1.1rem;
   color: #222;
@@ -436,5 +410,191 @@
   .hero.hero10 p {
     font-size: 1rem;
     max-width: 100%;
+  }
+}
+
+
+.hero.hero12 {
+  background: #f92b5b;
+  min-height: 540px;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-sizing: border-box;
+}
+
+/* Graphic column (right) */
+.hero.hero12 > div:first-child {
+  flex: 1 1 48%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  min-width: 320px;
+  min-height: 320px;
+  order: 2;
+  position: relative;
+}
+
+/* Vertically center geometric shape in right column */
+.hero.hero12 > div:first-child > div {
+  margin: 0 auto;
+  align-self: center;
+  width: 420px;
+  height: 420px;
+  max-width: 100vw;
+  max-height: 90vh;
+  background: #fff;
+  border-radius: 90px 24px 100px 36px / 120px 40px 100px 60px;
+  transform: rotate(12deg) translate(0, 0);
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 64px 0 rgb(0 0 0 / 0.03);
+  display: block;
+}
+
+/* Text column (left) - vertically center text group */
+.hero.hero12 > div:last-child {
+  flex: 0 1 52%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  min-width: 320px;
+  max-width: 700px;
+  padding-left: clamp(24px, 5vw, 56px);
+  padding-right: 0;
+  z-index: 2;
+  order: 1;
+  height: 100%;
+}
+
+.hero.hero12 > div:last-child > div {
+  width: 100%;
+  max-width: 590px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+/* Top label */
+.hero.hero12 > div:last-child > div > p:first-child {
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: bold;
+  margin-bottom: 22px;
+  margin-top: 0;
+  line-height: 1.2;
+  text-align: left;
+  letter-spacing: 0.01em;
+}
+
+/* Main quote text */
+.hero.hero12 > div:last-child > div > h2 {
+  color: #fff;
+  font-size: 1.45rem;
+  line-height: 1.5;
+  font-weight: 600;
+  margin: 0 0 36px 0;
+  letter-spacing: 0;
+  text-align: left;
+  max-width: 590px;
+}
+
+/* Button row left-aligned */
+.hero.hero12 > div:last-child > div > .button-container {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+/* Pill-shaped white button */
+.hero-container > .hero-wrapper > .block.hero.hero12 .button,
+.hero.hero12 .button-container .button {
+  background: #fff;
+  color: #151515;
+  font-size: 1.08rem;
+  font-weight: 600;
+  border-radius: 32px;
+  padding: 14px 36px;
+  border: none;
+  margin: 0;
+  text-align: center;
+  box-shadow: none;
+  transition: background 0.2s, color 0.2s;
+  box-sizing: border-box;
+  letter-spacing: 0;
+  min-width: 0;
+}
+
+.hero-container > .hero-wrapper > .block.hero.hero12 .button:hover,
+.hero-container > .hero-wrapper > .block.hero.hero12 .button:focus {
+  background: #e6e6e6;
+  color: #151515;
+  text-decoration: none;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 900px) {
+  .hero.hero12 {
+    flex-direction: column;
+    min-height: 0;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    align-items: stretch;
+    padding: 0;
+  }
+
+  .hero.hero12 > div {
+    min-width: 0;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 0;
+  }
+
+  .hero.hero12 > div:first-child {
+    display: none;
+  }
+
+  .hero.hero12 > div:last-child {
+    min-width: 0;
+    max-width: 98vw;
+    padding: 0 12px;
+  }
+
+  .hero.hero12 > div:last-child > div {
+    max-width: 100vw;
+    padding: 0;
+  }
+
+  .hero.hero12 > div:last-child > div > h2 {
+    font-size: 1.09rem;
+    line-height: 1.36;
+  }
+
+  .hero.hero12 > div:last-child > div > p:first-child {
+    font-size: 0.98rem;
+  }
+
+  .hero-container > .hero-wrapper > .block.hero.hero12 .button,
+  .hero.hero12 .button-container .button {
+    font-size: 1rem;
+    padding: 11px 22px;
   }
 }

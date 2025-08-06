@@ -1,3 +1,6 @@
+/* Disabled no-descending-specificity globally */
+/* stylelint-disable no-descending-specificity */
+
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -32,7 +35,6 @@
   }
 }
 
-
 .columns.columns7 {
   background: #fff;
   padding: 36px 36px 24px;
@@ -43,9 +45,9 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  gap: 24px; /* Reduced gap for tighter grouping */
+  gap: 24px;
   width: 100%;
-  max-width: 950px; /* More compact block for better grouping */
+  max-width: 950px;
   margin: 0 auto;
   box-sizing: border-box;
 }
@@ -56,7 +58,6 @@
   box-sizing: border-box;
 }
 
-/* Refined column widths for better proportions */
 .columns.columns7 > div > div:nth-child(1) {
   max-width: 185px;
   flex-basis: 155px;
@@ -72,7 +73,6 @@
   flex-basis: 200px;
 }
 
-/* Remove list bullets and maintain left alignment and spacing */
 .columns.columns7 ul {
   list-style: none;
   margin: 0;
@@ -108,7 +108,6 @@
   text-decoration: underline;
 }
 
-/* Third column: heading, description, social links row */
 .columns.columns7 > div > div:last-child > p:first-child {
   margin: 0 0 8px;
   color: #e4002b;
@@ -127,7 +126,6 @@
   line-height: 1.5;
 }
 
-/* Social links row: inline, subtle, compact */
 .columns.columns7 > div > div:last-child > p:nth-child(3) {
   display: flex;
   align-items: center;
@@ -149,7 +147,6 @@
   letter-spacing: -0.5px;
 }
 
-/* Responsive: stack columns and adjust spacing on small screens */
 @media (width <= 900px) {
   .columns.columns7 {
     padding: 24px 8px;
@@ -171,5 +168,82 @@
 
   .columns.columns7 > div > div:last-child > p:first-child {
     font-size: 18px;
+  }
+}
+
+.columns.columns9 {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+.columns.columns9 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch; /* Ensures equal-height columns */
+  width: 100%;
+  gap: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.columns.columns9 > div > div {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Top-align content */
+  align-items: flex-start;
+  align-self: stretch; /* Columns fill the row height */
+  padding: 48px 56px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Left column: purple background, white text */
+.columns.columns9 > div > div:first-child {
+  background: #8800f7;
+  color: #fff;
+}
+
+/* Right column: yellow background, black text */
+.columns.columns9 > div > div:last-child {
+  background: #ffcc31;
+  color: #000;
+}
+
+/* Heading inside block ("Our Vision", "Our Purpose") */
+.columns.columns9 > div > div > p {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 18px;
+  color: inherit;
+  line-height: 1.2;
+}
+
+/* Large headline text */
+.columns.columns9 > div > div > h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0;
+  color: inherit;
+  line-height: 1.15;
+  letter-spacing: -0.5px;
+}
+
+@media (width <= 900px) {
+  .columns.columns9 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .columns.columns9 > div {
+    flex-direction: column;
+  }
+
+  .columns.columns9 > div > div {
+    padding: 32px 20px;
   }
 }

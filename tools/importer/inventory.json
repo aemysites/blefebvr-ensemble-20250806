@@ -1,0 +1,322 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        }
+      ],
+      "styles": {
+        "height": 94
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-12-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-09-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Search",
+      "cluster": 1,
+      "source": "Search",
+      "target": "Search",
+      "key": "search1",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-01-2e8fcdb41dd14046de159b35e6a468f673612818",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-01-2e8fcdb41dd14046de159b35e6a468f673612818",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[4]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-02-fdaff0806ef3d2e804d13ba675da6a15aeaaddab",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-03-ba0dbed47f7d2ce54de6618119665019b38aa7eb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-05-e332cbb1f13e911cebfc9e77cf4d192f296f7867",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 5,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-09-1ace748a9f23f78d956b07e1df9d73f34c71aaa3",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-06-1ace748a9f23f78d956b07e1df9d73f34c71aaa3",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-10-c4c53b0c17d7993befd072c7dd8c5f33062e73e5",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-07-c4c53b0c17d7993befd072c7dd8c5f33062e73e5",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-11-4faf22c3d2bea34417fc0503c58095b2713b3944",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-08-4faf22c3d2bea34417fc0503c58095b2713b3944",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 8,
+      "source": "Header",
+      "target": "Header",
+      "key": "header8",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-03-ba0dbed47f7d2ce54de6618119665019b38aa7eb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 10,
+      "source": "Hero",
+      "target": "Hero (hero10)",
+      "key": "hero10",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-04-03cb6424027e665f9b01b60ad91844895b183f60",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-06-b27b12a1411624508991ab3abf0cdf70a35156b6",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[5]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 12,
+      "source": "Hero",
+      "target": "Hero (hero12)",
+      "key": "hero12",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-08-87e365f9eee72f31de0b372e10b9a53ad4378491",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[7]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-02-fdaff0806ef3d2e804d13ba675da6a15aeaaddab",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-05-e332cbb1f13e911cebfc9e77cf4d192f296f7867",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-07-a0dd6e1d998e1a99d9378b5adfa5e7560d18a2ba",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[7]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-12-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us.html",
+      "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+      "uuid": "fce9269c-04-03cb6424027e665f9b01b60ad91844895b183f60",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us.html",
+      "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+      "uuid": "fce9269c-09-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]",
+      "section": "section-3"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgba(0, 0, 0, 0.9) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    },
+    {
+      "name": "section-2",
+      "background": "rgb(246, 11, 69) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 3
+    },
+    {
+      "name": "section-3",
+      "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 8
+    }
+  ]
+}

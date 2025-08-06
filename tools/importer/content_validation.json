@@ -1,0 +1,484 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        }
+      ],
+      "styles": {
+        "height": 94
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-12-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div_2__div__div_6__footer__div__div_2__div__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "\u00a9 2025 Kellanova. All Rights Reserved."
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-09-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Search",
+      "cluster": 1,
+      "source": "Search",
+      "target": "Search",
+      "key": "search1",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-01-2e8fcdb41dd14046de159b35e6a468f673612818",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[4]",
+          "section": "section-1"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-01-2e8fcdb41dd14046de159b35e6a468f673612818",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[4]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-02-fdaff0806ef3d2e804d13ba675da6a15aeaaddab",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 3,
+      "source": "Hero",
+      "target": "Hero (hero3)",
+      "key": "hero3",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-03-ba0dbed47f7d2ce54de6618119665019b38aa7eb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[2]",
+          "section": "section-2"
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-05-e332cbb1f13e911cebfc9e77cf4d192f296f7867",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[4]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 5,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-09-1ace748a9f23f78d956b07e1df9d73f34c71aaa3",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[1]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-06-1ace748a9f23f78d956b07e1df9d73f34c71aaa3",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 6,
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-10-c4c53b0c17d7993befd072c7dd8c5f33062e73e5",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[2]",
+          "section": "section-3"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-07-c4c53b0c17d7993befd072c7dd8c5f33062e73e5",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/nav[2]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 7,
+      "source": "Columns",
+      "target": "Columns (columns7)",
+      "key": "columns7",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-11-4faf22c3d2bea34417fc0503c58095b2713b3944",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[1]",
+          "section": "section-3",
+          "differences": [
+            {
+              "element_id": "html__body__div_2__div__div_6__footer__div__div_2__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "News Investors Careers Contact Us Privacy Notice US Privacy Terms of Use Cookie Preferences SMS Terms Accessibility Your Privacy Choices UK Modern Slavery Act Transparency Statement Connect with us. Stay connected with Kellanova by joining us on Facebook, LinkedIn, and YouTube"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": ". //facebook"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "."
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "com/kellanova //linkedin.com/company/kellanova //youtube.com/@kellanova"
+                }
+              ],
+              "dissimilarity_score": 0.16
+            }
+          ],
+          "similarity_score": 0.84
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-08-4faf22c3d2bea34417fc0503c58095b2713b3944",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[1]",
+          "section": "section-3"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 8,
+      "source": "Header",
+      "target": "Header",
+      "key": "header8",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        },
+        {
+          "url": "https://www.kellanova.com/us/en/about-us.html",
+          "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+          "uuid": "fce9269c-00-d864c70d25f830989e674715c00eda2b45583a5c",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[3]"
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 9,
+      "source": "Columns",
+      "target": "Columns (columns9)",
+      "key": "columns9",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-03-ba0dbed47f7d2ce54de6618119665019b38aa7eb",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__div_2__div__div_5__div__main__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Our Vision To be the world\u2019s best snacks-led powerhouse, unleashing the full potential of our differentiated brands and our passionate people Our Purpose Creating better days and a place at the table for everyone through our trusted food brands"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 10,
+      "source": "Hero",
+      "target": "Hero (hero10)",
+      "key": "hero10",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-04-03cb6424027e665f9b01b60ad91844895b183f60",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[3]",
+          "differences": [
+            {
+              "element_id": "html__body__div_2__div__div_5__div__main__div_3",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Culture of Best Our Culture of Best means we bring our best to all that we do in pursuit of our vision to be the world's best performing snacks-led powerhouse. Our culture celebrates boldness and empowers our people to challenge the status quo, achieve results, and win together."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 11,
+      "source": "Columns",
+      "target": "Columns (columns11)",
+      "key": "columns11",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-06-b27b12a1411624508991ab3abf0cdf70a35156b6",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[5]",
+          "differences": [
+            {
+              "element_id": "html__body__div_2__div__div_5__div__main__div_5",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Integrity We do what's right, the right way. Accountability We are empowered, take ownership, and deliver. Courage We think big, we speak up, and we fearlessly pursue opportunities."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 12,
+      "source": "Hero",
+      "target": "Hero (hero12)",
+      "key": "hero12",
+      "instances": [
+        {
+          "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+          "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+          "uuid": "b1fc4269-08-87e365f9eee72f31de0b372e10b9a53ad4378491",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[7]/div[2]",
+          "section": "section-2",
+          "differences": [
+            {
+              "element_id": "html__body__div_2__div__div_5__div__main__div_7__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Melissa Howell \u00b7 Chief Human Resource Officer \u201cThe journey we are on is so exciting. Kellanova\u2019s bold vision and culture paired with our unwavering commitment to our people is a recipe for success. We're building something special here \u2013 come join a team that enables you to be the best!\u201d Visit Kellanova Careers"
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-02-fdaff0806ef3d2e804d13ba675da6a15aeaaddab",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[1]"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-05-e332cbb1f13e911cebfc9e77cf4d192f296f7867",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-07-a0dd6e1d998e1a99d9378b5adfa5e7560d18a2ba",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[7]/div[1]",
+      "section": "section-2"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "urlHash": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45",
+      "uuid": "b1fc4269-12-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]",
+      "section": "section-3",
+      "differences": [
+        {
+          "element_id": "html__body__div_2__div__div_6__footer__div__div_2__div__div_2",
+          "differences": [
+            {
+              "change_type": "equal",
+              "text": "\u00a9 2025 Kellanova. All Rights Reserved."
+            }
+          ],
+          "dissimilarity_score": -0.0
+        }
+      ],
+      "similarity_score": 0.0
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us.html",
+      "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+      "uuid": "fce9269c-04-03cb6424027e665f9b01b60ad91844895b183f60",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[5]/div[1]/main[1]/div[3]"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us.html",
+      "urlHash": "fce9269c306987067e48c916f59f8d4bfa04db13",
+      "uuid": "fce9269c-09-8d79854a37eff9c85de7f9b268e8dc0d9fe258ec",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[6]/footer[1]/div[1]/div[2]/div[1]/div[2]",
+      "section": "section-3"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "differences": [
+        {
+          "change_type": "deletion",
+          "text": "skip to main content "
+        },
+        {
+          "change_type": "equal",
+          "text": "News Investors About Us About Us Our Vision, Purpose and Values Our Legacy Equity, Diversity and Inclusion Awards and Recognitions Doing Business with Kellanova Contact Us Our Food Our Impact Our Careers Contact Us News Investors Careers About Us About Us Our Vision, Purpose and Values Our Legacy Equity, Diversity and Inclusion Awards and Recognitions Doing Business with Kellanova Contact Us Our Food Our Impact Contact Us Search "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Search Search Type your search and"
+        },
+        {
+          "change_type": "insertion",
+          "text": "skip"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "press enter"
+        },
+        {
+          "change_type": "insertion",
+          "text": "to"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "or"
+        },
+        {
+          "change_type": "insertion",
+          "text": "main"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "return"
+        },
+        {
+          "change_type": "insertion",
+          "text": "content"
+        },
+        {
+          "change_type": "equal",
+          "text": " Staying focused, going further We are a company of promise and fresh possibilities. Each day represents a new opportunity to share our vision, live our purpose and push boundaries to create foods and brands that help fuel the best in everyone everywhere. Our Vision To be the world\u2019s best snacks-led powerhouse, unleashing the full potential of our differentiated brands and our passionate people Our Purpose Creating better days and a place at the table for everyone through our trusted food brands Culture of Best Our Culture of Best means we bring our best to all that we do in pursuit of our vision to be the world's best performing snacks-led powerhouse. Our culture celebrates boldness and empowers our people to challenge the status quo, achieve results, and win together. Where Values Matter Our values are a part of our legacy. They guide the way we work with our partners and with each other, creating a vibrant company culture where ideas can blossom, people can thrive, and success can flourish. Integrity We do what's right, the right way. Accountability We are empowered, take ownership, and deliver. Courage We think big, we speak up, and we fearlessly pursue opportunities. Why Join Kellanova? Melissa Howell \u00b7 Chief Human Resource Officer \u201cThe journey we are on is so exciting. Kellanova\u2019s bold vision and culture paired with our unwavering commitment to our people is a recipe for success. We're building something special here \u2013 come join a team that enables you to be the best!\u201d Visit Kellanova Careers News Investors Careers Contact Us Privacy Notice US Privacy Terms of Use Cookie Preferences SMS Terms Accessibility Your Privacy Choices UK Modern Slavery Act Transparency Statement Connect with us. Stay connected with Kellanova by joining us on Facebook, LinkedIn, and YouTube"
+        },
+        {
+          "change_type": "deletion",
+          "text": ". \u00a9 "
+        },
+        {
+          "change_type": "insertion",
+          "text": ". //facebook.com/kellanova //linkedin.com/company/kellanova //youtube.com/@kellanova Cookies On Our Website This website uses cookies, web beacons, and other technologies (\u201ccookies\u201d) to store and/or access information on your device, such as your IP address, and may use them for any of the following purposes: collect website use statistics, track your preferences, provide personalized ads and content, measure ads and content, and ensure security. By clicking \u201cAccept Cookies,\u201d you agree to the use of all cookies on our websites. Click \u201cCookie Preferences\u201d to permit/disable different cookie types. By continuing without clicking \u201cAccept Cookies,\u201d you will reject all cookies that are not strictly necessary. This will not stop you from accessing our websites but may impact your browsing experience and prevent you from using parts of our website. You have the right to withdraw your consent with effect for the future. Learn more about our use of your data by reading our Privacy Notice . Cookie Preferences Strictly Necessary Cookies Only Accept Cookies Privacy Preference Center When you visit our websites, we store and retrieve information on your browser, mostly in the form of cookies. This information relates to you, your preferences or your device and is mostly used to make the site work as you expect it to. The information does not usually directly identify you, but it can give you a more personalized web experience. Because we respect your right to privacy, you can choose not to allow some types of cookies. Click on the different category headings to find out more and change our default settings. However, blocking some types of cookies may impact your experience of the site and the services we are able to offer. The legal basis for cookies you consent to is Art. 6 (1) (a) GDPR, and the legal basis for technically required cookies is Art. (1) (f) GDPR. For German residents, the legal basis for saving and reading of information on your devices is \u00a7 25 (1) TTDSG for cookies you consent to, and \u00a7 25 (2) TTDSG for technically required cookies, and Art. 6 (1) (a) resp. (f) GDPR applies to further processing. You have the right to withdraw your consent with effect for the future. You can manage your cookies at any time by clicking the link \u201cCookie Preferences\u201d in the footer of the website to access this Privacy Preference Center. Please see our Privacy Notice for further information on the technologies we use, their purpose, how we process your data and your rights as a data subject. More Information Accept Cookies Manage Consent Preferences Performance Cookies [ ] Performance Cookies These cookies allow us to count visits and traffic sources so we can measure and improve the performance of our site. They help us to know which pages are the most and least popular and see how visitors move around the site. All information these cookies collect is aggregated and therefore anonymous. If you do not allow these cookies we will not know when you have visited our site, and will not be able to monitor its performance. Cookies Details\u200e Functional Cookies [ ] Functional Cookies These cookies enable the website to provide enhanced functionality and personalisation. They may be set by us or by third party providers whose services we have added to our pages. If you do not allow these cookies then some or all of these services may not function properly. Cookies Details\u200e Strictly Necessary Cookies Always Active These cookies are necessary for the website to function and cannot be switched off in our systems. They are usually only set in response to actions made by you which amount to a request for services, such as setting your privacy preferences, logging in or filling in forms. You can set your browser to block or alert you about these cookies, but some parts of the site will not then work. These cookies do not store any personally identifiable information. Cookies Details\u200e Targeting Cookies [ ] Targeting Cookies These cookies may be set through our site by our advertising partners. They may be used by those companies to build a profile of your interests and show you relevant adverts on other sites. They do not store directly personal information, but are based on uniquely identifying your browser and internet device. If you do not allow these cookies, you will experience less targeted advertising. Cookies Details\u200e Cookie List Search\u2026 Clear [ ] checkbox label label Apply Cancel Consent Leg.Interest [ ] checkbox label label [ ] checkbox label label [ ] checkbox label label Strictly Necessary Cookies Only Confirm My Choices \u00a9 "
+        },
+        {
+          "change_type": "equal",
+          "text": "2025 Kellanova. All Rights Reserved."
+        }
+      ],
+      "similarity_score": 0.6924705152111285
+    }
+  ]
+}

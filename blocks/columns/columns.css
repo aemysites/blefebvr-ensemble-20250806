@@ -31,3 +31,145 @@
     order: unset;
   }
 }
+
+
+.columns.columns7 {
+  background: #fff;
+  padding: 36px 36px 24px;
+}
+
+.columns.columns7 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px; /* Reduced gap for tighter grouping */
+  width: 100%;
+  max-width: 950px; /* More compact block for better grouping */
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.columns.columns7 > div > div {
+  min-width: 0;
+  flex: 1 1 0;
+  box-sizing: border-box;
+}
+
+/* Refined column widths for better proportions */
+.columns.columns7 > div > div:nth-child(1) {
+  max-width: 185px;
+  flex-basis: 155px;
+}
+
+.columns.columns7 > div > div:nth-child(2) {
+  max-width: 175px;
+  flex-basis: 150px;
+}
+
+.columns.columns7 > div > div:nth-child(3) {
+  max-width: 280px;
+  flex-basis: 200px;
+}
+
+/* Remove list bullets and maintain left alignment and spacing */
+.columns.columns7 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns7 li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.columns.columns7 li:last-child {
+  margin-bottom: 0;
+}
+
+.columns.columns7 a {
+  color: #333;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.columns.columns7 a:hover,
+.columns.columns7 a:focus {
+  color: #1d3ecf;
+  text-decoration: underline;
+}
+
+/* Third column: heading, description, social links row */
+.columns.columns7 > div > div:last-child > p:first-child {
+  margin: 0 0 8px;
+  color: #e4002b;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2;
+}
+
+.columns.columns7 > div > div:last-child > p:nth-child(2) {
+  margin: 0 0 6px;
+  color: #333;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* Social links row: inline, subtle, compact */
+.columns.columns7 > div > div:last-child > p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.columns.columns7 > div > div:last-child > p:nth-child(3) a {
+  color: #878787;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: inline-block;
+  letter-spacing: -0.5px;
+}
+
+/* Responsive: stack columns and adjust spacing on small screens */
+@media (width <= 900px) {
+  .columns.columns7 {
+    padding: 24px 8px;
+  }
+
+  .columns.columns7 > div {
+    flex-direction: column;
+    gap: 28px;
+    max-width: 100%;
+  }
+
+  .columns.columns7 > div > div,
+  .columns.columns7 > div > div:nth-child(1),
+  .columns.columns7 > div > div:nth-child(2),
+  .columns.columns7 > div > div:nth-child(3) {
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .columns.columns7 > div > div:last-child > p:first-child {
+    font-size: 18px;
+  }
+}

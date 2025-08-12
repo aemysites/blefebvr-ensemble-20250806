@@ -1,23 +1,23 @@
 {
   "originUrl": "https://www.kellanova.com",
-  "urls": [
-    {
-      "url": "https://www.kellanova.com/us/en/about-us.html",
-      "source": "MANUAL",
-      "targetPath": "/us/en/about-us",
-      "id": "fce9269c306987067e48c916f59f8d4bfa04db13"
-    },
-    {
-      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
-      "source": "MANUAL",
-      "targetPath": "/us/en/about-us/vision-purpose-values",
-      "id": "b1fc42695f84185c3575d0dc8ce94ebf7886ee45"
-    }
-  ],
+  "aborted": false,
+  "urls": [],
+  "lastCrawled": null,
   "crawlOptions": {
+    "limit": 100,
     "strategy": "manual",
     "strategiesAttempted": [
       "MANUAL"
     ]
-  }
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.kellanova.com/us/en/about-us/vision-purpose-values.html",
+      "message": "resource crawl error: Url https://www.kellanova.com/us/en/about-us/vision-purpose-values.html: fetch failed"
+    },
+    {
+      "url": "https://www.kellanova.com/us/en/about-us.html",
+      "message": "resource crawl error: Url https://www.kellanova.com/us/en/about-us.html: fetch failed"
+    }
+  ]
 }
